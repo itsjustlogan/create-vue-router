@@ -2,7 +2,7 @@ import * as fs from 'fs'
 import { cwd, errorText, log, whiteText, cyanText } from './variables.js'
 
 export const makeDir = (dirToCreate) => {
-  fs.mkdir(`${cwd}/${dirToCreate}`, (err) => {
+  fs.mkdir(`${cwd}/${dirToCreate}`, { recursive: true }, (err) => {
     if (err) {
       log(
         errorText(

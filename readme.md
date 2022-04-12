@@ -10,7 +10,9 @@ This will create a router folder in the **"src"** directory, and generate an ind
 
 ## **Installation**
 
-npm package incoming.
+### **npm**
+
+package incoming.
 
 ## **Next Steps**
 
