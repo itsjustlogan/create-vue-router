@@ -6,7 +6,7 @@ import { log, packageDir } from './constants.js'
 const readFile = util.promisify(fs.readFile)
 
 const readData = async (sourceFile: string) => {
-  const dataRead = await readFile((path.resolve(packageDir), sourceFile))
+  const dataRead = await readFile(path.resolve(packageDir, sourceFile))
   return dataRead
 }
 
