@@ -1,12 +1,13 @@
 {
   "name": "create-vue-router",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Add vue router to a vite project or any other existing vue 3 project not using vue cli.",
   "type": "module",
-  "main": "src/index.js",
-  "bin": "src/index.js",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
   "scripts": {
-    "build:router": "rm -rf src/router && rm -rf src/views && ts-node src/index.ts"
+    "build": "rm -rf src/router && rm -rf src/views && node dist/index.js",
+    "tsc": "tsc && cp -r ./src/config ./dist"
   },
   "keywords": [
     "vue",

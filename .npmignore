@@ -1,0 +1,6 @@
+node_modules
+src
+.gitignore
+.eslintrc.json
+tsconfig.json
+test-package

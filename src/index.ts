@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import addRouterDepend from './modules/addRouterDepend.js'
 import createRouterDir from './modules/CreateRouterDir.js'
 import createRouterFile from './modules/createRouterFile.js'
