@@ -1,7 +1,7 @@
 import fs from 'fs'
 import util from 'util'
 import path from 'path'
-import { log, packageDir } from './constants.js'
+import { packageDir } from './constants.js'
 
 const readFile = util.promisify(fs.readFile)
 

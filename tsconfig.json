@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "esnext",
     "module": "esnext",
-    "outDir": "./dist",
     "removeComments": true,
-    "sourceMap": false,
+    "outDir": "dist/types",
     "declaration": true,
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true
@@ -12,5 +11,6 @@
   "ts-node": {
     "esm": true
   },
-  "exclude": ["test-package"]
+  "include": ["src"],
+  "exclude": ["dist"]
 }
