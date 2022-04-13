@@ -4,3 +4,4 @@ src
 .eslintrc.json
 tsconfig.json
 test-package
+rollup.config.js

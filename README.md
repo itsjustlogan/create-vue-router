@@ -4,9 +4,13 @@
 [![npm](https://img.shields.io/npm/v/create-vue-router?color=green)](https://www.npmjs.com/package/create-vue-router)
 [![npm](https://img.shields.io/badge/licence-MIT-blue?&style=flat)](https://github.com/itsjustlogan/create-vue-router/blob/main/LICENSE)
 
-Add vue router to a vite project or any other existing vue 3 project not using vue cli.
+Add vue router to a vite project or any other existing vue 3 project.
 
-This will create a router folder in the **"src"** directory, and generate an index.js file that only needs to be modified to add your routes.
+### **What this does**
+
+- Install **Vue Router**
+- Create a **router** folder and a **views** folder in the **src** directory.
+- Generate an **index** file with all the necessary boilerplate in the **router** folder, so you can modify and add routes to your liking.
 
 ## **Installation**
 

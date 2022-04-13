@@ -1,19 +1,19 @@
 {
   "name": "create-vue-router",
   "version": "0.2.3",
-  "description": "Add vue router to a vite project or any other existing vue 3 project not using vue cli.",
+  "description": "Add vue router to a vite project or any other existing vue 3 project.",
   "type": "module",
   "main": "dist/index.js",
   "bin": "dist/index.js",
   "scripts": {
-    "watch": "npx rollup --config rollup.config.js --watch",
+    "watch": "rm -rf dist && npx rollup --config rollup.config.js --watch",
     "compile": "rm -rf dist && npx rollup --config rollup.config.js && cp -r ./src/config ./dist",
-    "build": "rm -rf src/router && rm -rf src/views && node dist/index.js",
-    "tsc": "tsc && cp -r ./src/config ./dist"
+    "build": "rm -rf src/router && rm -rf src/views && node dist/index.js"
   },
   "keywords": [
     "vue",
-    "vue router"
+    "vue router",
+    "vite"
   ],
   "author": "Justin Logan",
   "license": "MIT",
@@ -23,7 +23,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/itsjustlogan/create-vue-router"
+  },
+  "bugs": {
+    "url": "https://github.com/itsjustlogan/create-vue-router/issues"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.3.1",
