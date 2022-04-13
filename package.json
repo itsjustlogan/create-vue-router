@@ -1,6 +1,6 @@
 {
   "name": "create-vue-router",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Add vue router to a vite project or any other existing vue 3 project not using vue cli.",
   "type": "module",
   "main": "dist/index.js",

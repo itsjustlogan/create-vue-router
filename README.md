@@ -1,8 +1,8 @@
 # **Create Vue Router**
 
-[![npm](https://img.shields.io/badge/build-stable-sucess?&style=flat)](https://github.com/itsjustlogan/microncss)
-[![npm](https://img.shields.io/npm/v/create-vue-router?color=green)](https://www.npmjs.com/package/microncss)
-[![npm](https://img.shields.io/badge/licence-MIT-blue?&style=flat)]()
+[![npm](https://img.shields.io/badge/build-stable-sucess?&style=flat)](https://github.com/itsjustlogan/create-vue-router)
+[![npm](https://img.shields.io/npm/v/create-vue-router?color=green)](https://www.npmjs.com/package/create-vue-router)
+[![npm](https://img.shields.io/badge/licence-MIT-blue?&style=flat)](https://github.com/itsjustlogan/create-vue-router/blob/main/LICENSE)
 
 Add vue router to a vite project or any other existing vue 3 project not using vue cli.
 
@@ -12,7 +12,9 @@ This will create a router folder in the **"src"** directory, and generate an ind
 
 ### **npm**
 
-package incoming.
+```shell
+npx create-vue-router
+```
 
 ## **Next Steps**
 
